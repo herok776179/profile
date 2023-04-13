@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>이력서 홈페이지</title>        
+
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" media="(max-width:480px)" href="./css/main(480px).css" />        
+
+        <script src="./js/jquery.js"></script>       
+        <script src="./js/nav.js"></script>
+        <script src="./js/scrollanimation.js"></script>
+        <script src="./js/project_tab.js"></script>
+        <script src="https://kit.fontawesome.com/1fc1598bd1.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>  
+    
+    </head>
+
+    <body>
+        <div id="wrap">
+            <section id="main">
+                <header id="header">
+                    <div class="logo">
+                        <span>HEROKIM</span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav_list">
+                            <li>main</li>
+                            <li>profile</li>
+                            <li>skill</li>
+                            <li>project</li>
+                            <li>e-mail</li>
+                            <li>end</li>
+                        </ul>
+                    </nav>
+                </header>
+                <section id="main_txt">
+                    <h2>Hello, I'm Kim Yeong-wng</h2>
+                    <p>UX Designer & Front End Developer</p>
+                </section>
+            </section>
+            <section id="profile">                
+                <div id="profiletitle">
+                    <h2>My Profiles</h2>
+                </div>
+                <div id="profiletopbox">
+                    <ul>
+                        <li>
+                            <h4 class="proh4">나의 좌우명</h4>
+                            <img src="./images/challenge.png" alt="" class="prospeechimg">
+                            <h9>느리게 성장하는 것보다<br>
+                                멈춰서는 것이 더 두렵다</h9>                            
+                        </li>
+                        <li>
+                            <h4>학력사항 및 관련교육</h4>
+                            <h6>학과 : e-비즈니스학과</h6>
+                            <h6>관련학과교육 :</h6>
+                            <p>컴퓨터개론 : 전반적인 컴퓨터에 대한 이해</p>
+                            <p>웹디자인 : html, css를 활용, 웹퍼블리셔 기본</p>
+                            <p>데이터베이스설계및응용 : 알고리즘기초 및 DBMS 활용</p>   
+                            <p>프로그램언어 : java 기초</p>    
+                            <p>웹평가기법과활용 : 웹표준, UI평가방법 학습</p>    
+                            <p>웹개발및응용 : html, css, javascript 전반적인 이해</p>    
+                            
+                        </li>
+                        <li>
+                            <h4>to show me</h4>
+                            <div class="proshowbox">
+                            <div class="proshow">
+                                <img src="./images/check.png" alt="" class="proshowimg">
+                                <h5>시간약속 철저</h5>                                
+                            </div>
+                            <div class="proshow">
+                                <img src="./images/smile.png" alt="" class="proshowimg">
+                                <h5>긍정적인 에너지</h5>
+                            </div>
+                            <div class="proshow">
+                                <img src="./images/act.png" alt="" class="proshowimg">
+                                <h5>실행력</h5>
+                            </div>
+                            <div class="proshow">
+                                <img src="./images/comu.png" alt="" class="proshowimg">
+                                <h5>원활한 소통능력</h5>
+                            </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="profiletxt01">
+                    <p><span>인적사항</span></p>
+                    <p>이름 : 김영웅, KIM YEONG-WNG</p>
+                    <p>전화번호 : 010-7664-6179</p>
+                    <p>이메일 주소 : herok6179@naver.com</p>
+                    <p>블로그 주소 : <a href="https://blog.naver.com/herok6179">https://blog.naver.com/herok6179</a></p>
+                </div>
+                <div id="profiletxt02">
+                    <p><span>TimeLine</span></p>
+                    <p>부산 코리아IT아카데미</p>
+                    <p>UI/UX기반 프론트엔드 개발자 양성과정 수료</p>
+                    <p>(2022년10월 ~ 2023년3월)</p>
+                </div>
+            </section>
+            <section id="skill">
+                <div id="skilltitle">
+                    <h2>My Skills</h2>
+                </div>
+                <div id="percent">
+                    <div class="percent01">
+                        <div>
+                            <span>HTML & CSS</span>
+                        </div>
+                        <div class="percentbox">
+                            <div><h9>90%</h9></div>
+                        </div>
+                        <p>
+                            html과 css를 통해 웹의 시각적인 요소를 구현하고 전체적인 웹 구조를 만들 수 있음.                                                                                    
+                        </p>
+                    </div>
+                    <div class="percent02">
+                        <div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="percentbox">
+                            <div><h9>50%</h9></div>
+                        </div>
+                        <p>
+                            에니메이션, 스크롤, 슬라이드 등 기본적인 동적 움직임을 구현할 수 있음.
+                        </p>
+                    </div>
+                    <div class="percent03">
+                        <div>
+                            <span>Jquery</span>
+                        </div>
+                        <div class="percentbox">
+                            <div><h9>80%</h9></div>
+                        </div>
+                        <p>
+                            자바스크립트기반의 라이브러리를 이용하여 웹페이지에 다양한 효과를 적용할 수 있음.
+                        </p>
+                    </div>
+                    <div class="percent04">
+                        <div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="percentbox">
+                            <div><h9>30%</h9></div>
+                        </div>
+                        <p>
+                            노드 기본개념과 기초적인 서버개념 함양.                            
+                        </p>
+                    </div>
+                    <div class="percent05">
+                        <div>
+                            <span>React</span>
+                        </div>
+                        <div class="percentbox">
+                            <div><h9>40%</h9></div>
+                        </div>
+                        <p>
+                            React의 전반적인 요소를 이해하고 기초적인 훅함수를 이용한 React 페이지 제작을 수행.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="project">
+                <div id="projecttitle">
+                    <h2>My Projects</h2>
+                </div>
+                <div id="project_h">
+                    <ul class="project_h_list">
+                        <li>project1</li>
+                        <li>project2</li>
+                        <li>project3</li>
+                        <li>project4</li>
+                    </ul>
+                </div>
+                <div id="project_b">
+                    <div class="projectbox">
+                        <div class="project1">
+                            <img class="monitor" src="./images/monitor.png" alt="">
+                                <div class="monitor_in">
+                                    <ul>
+                                        <li class="choroc1">
+                                            <img src="./images/choroc1.jpg" alt="" />
+                                        </li>
+                                        <li class="choroc2">
+                                            <img src="./images/choroc2.jpg" alt="" />
+                                        </li>
+                                        <li class="choroc3">
+                                            <img src="./images/choroc3.jpg" alt="" />
+                                        </li>
+                                        <li class="choroc4">
+                                            <img src="./images/choroc4.jpg" alt="" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            <div class="project_txt">                                
+                                <h3>제목: 초록마을 리뉴얼</h3>
+                                <a href="https://choroc2.netlify.app" target="_blank" class="pro_button">결과물보기</a>
+                                <a href="#" class="pro_button">코드보기</a>
+                                <p>설명 : 리액트 프레임워크를 이용해 초록마을 사이트를 리뉴얼</p>
+                                <p>사용 기술 : html, css, javascript, react</p>
+                                <p>작업후기 : 첫번째로 작업할 때 애를 먹었던 것은 position을 absolute로 사용하고 left값과 top값을 주었을 때 스크롤을 당기면
+                                    대상의 위치가 이상한 곳으로 가는 현상이었습니다. 알아보니 left를 퍼센트로 주고 margin-left값을 대상의 width의 반을 -값으로 주면 해결되었습니다.
+                                    다음으로 리액트를 사용하면서 bootstrap은 정해진 디자인을 따르기 때문에 javascript를 사용하게 되었는데 class컴포넌트를 만들어야 
+                                    javascript를 사용할 수 있기 때문에 함수형 컴포넌트를 수정하는 과정도 겪게 되었고 작업하는 과정에서 class컴포넌트보다 함수형 컴포넌트가 따로 props를
+                                    불러올 필요가 없어 훨씬 수월하고 함수형에 훅함수를 이용해서 작업하는것이 간편하기 때문에 보편적으로 사용한다는 것도 알게 되었습니다.
+                                    따라서 다음 작업에서는 class컴포넌트를 많이 이용하는 것보다 함수형으로 선언해서 훅함수를 통해 기능을 구현해서 작업하는 것이 낫다고 생각합니다.
+                                    또한, 반응형을 미쳐 생각하지 않고 작업하다가 보니 많은 수정과정을 거쳐서 시간이 많이 들었는데 반응형을 염두해두고 작업을 진행하는 것이 
+                                    작업시간을 줄이는 방법이라고 생각합니다.                                   
+                                </p>
+                            </div>    
+                        <div class="project2"></div>
+                        <div class="project3"></div>                        
+                        <div class="project4"></div>
+                        </div>
+                </div>
+            </section>
+            <section id="mail">
+                <div id="mailtitle">
+                    <h2>Send Email</h2>
+                </div>
+                <form id="form">
+                    <div class="field">
+                        <label for="from_name">from_name</label>
+                        <input type="text" name="from_name" id="from_name" />
+                    </div>
+                    <div class="field">
+                        <label for="to_name">to_name</label>
+                        <input type="text" name="to_name" id="to_name" />
+                    </div>
+                    <div class="field">
+                        <label for="message">message</label>
+                        <input type="text" name="message" id="message" />
+                    </div>
+                    <div class="field">
+                        <label for="tel">tel</label>
+                        <input type="text" name="tel" id="tel" />
+                    </div>
+                    <div class="field">
+                        <label for="reply_to">reply_to</label>
+                        <input type="text" name="reply_to" id="reply_to" />
+                    </div>
+                    <input type="submit" id="button" value="Send Email" />
+                </form>
+            </section>
+            <section id="end">
+                <p>thank you</p>
+            </section>
+            <div id="q_mn">
+                <ul class="nav">
+                    <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-address-card"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-diagram-project"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-envelope-open"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-maximize"></i></a></li>
+                </ul>
+            </div>
+            
+            
+
+            <script>
+                emailjs.init('LJ5bIUo1VLKmiOZZ8'); //API key값 설정
+        
+                const btn = document.getElementById('button');
+        
+                document.getElementById('form').addEventListener('submit', function (event) {
+                    event.preventDefault();
+        
+                    btn.value = 'Sending...';
+                    const serviceID = 'service_t31vix3';
+                    const templateID = 'template_lbdxe5p';
+        
+                    emailjs.sendForm(serviceID, templateID, this)
+                        .then(() => {
+                            btn.value = 'Send Email';
+                            alert('메일보내기 성공');
+                        }, (err) => {
+                            btn.value = 'Send Email';
+                            alert(JSON.stringify(err));
+                        });
+        
+        
+                })
+        
+            </script>
+        </div>
+
+<!-- 모바일용 (480px) -->
+<div id="wrap_m">
+    <section id="main_m">
+        <header id="header_m">
+            <div class="logo"><span>HEROKIM</span></div>
+            <div class="menu">
+                <div></div>
+            </div>
+        </header>
+        <section id="main_m_txt">
+            <h2>Hello, I'm Kim Yeong-wng</h2>            
+        </section>
+    </section>
+    <section id="profiles_m">
+        <div class="profiles_h">
+            <div><h2>My Profiles</h2></div>
+        </div>
+        <div id="profiletopbox">
+            <ul>
+                <li>
+                    <h4 class="proh4">나의 좌우명</h4>
+                    <img src="./images/challenge.png" alt="" class="prospeechimg">
+                    <h9>느리게 성장하는 것보다<br>
+                        멈춰서는 것이 더 두렵다</h9>                            
+                </li>
+                <li>
+                    <h4>학력사항 및 관련교육</h4>
+                    <h6>학과 : e-비즈니스학과</h6>
+                    <h6>관련학과교육 :</h6>
+                    <p>컴퓨터개론 : 전반적인 컴퓨터에 대한 이해</p>
+                    <p>웹디자인 : html, css를 활용, 웹퍼블리셔 기본</p>
+                    <p>데이터베이스설계및응용 : 알고리즘기초 및 DBMS 활용</p>   
+                    <p>프로그램언어 : java 기초</p>    
+                    <p>웹평가기법과활용 : 웹표준, UI평가방법 학습</p>    
+                    <p>웹개발및응용 : html, css, javascript 전반적인 이해</p>    
+                    
+                </li>
+                <li>
+                    <h4>to show me</h4>
+                    <div class="proshowbox">
+                    <div class="proshow">
+                        <img src="./images/check.png" alt="" class="proshowimg">
+                        <h5>시간약속 철저</h5>                                
+                    </div>
+                    <div class="proshow">
+                        <img src="./images/smile.png" alt="" class="proshowimg">
+                        <h5>긍정적인 에너지</h5>
+                    </div>
+                    <div class="proshow">
+                        <img src="./images/act.png" alt="" class="proshowimg">
+                        <h5>실행력</h5>
+                    </div>
+                    <div class="proshow">
+                        <img src="./images/comu.png" alt="" class="proshowimg">
+                        <h5>원활한 소통능력</h5>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="profiletxt01">
+            <p><span>인적사항</span></p>
+            <p>이름 : 김영웅, KIM YEONG-WNG</p>
+            <p>전화번호 : 010-7664-6179</p>
+            <p>이메일 주소 : herok6179@naver.com</p>
+            <p>블로그 주소 : <a href="https://blog.naver.com/herok6179">https://blog.naver.com/herok6179</a></p>
+        </div>
+        <div id="profiletxt02">
+            <p><span>TimeLine</span></p>
+            <p>부산 코리아IT아카데미</p>
+            <p>UI/UX기반 프론트엔드 개발자 양성과정 수료</p>
+            <p>(2022년10월 ~ 2023년3월)</p>
+        </div>
+    </section>
+    <section id="skill_m">
+        <div class="skill_h">
+            <div>My skills</div>
+        </div>
+        <div id="percent">
+            <div class="percent01">
+                <div>
+                    <span>HTML & CSS</span>
+                </div>
+                <div class="percentbox">
+                    <div><h9>90%</h9></div>
+                </div>
+                <p>
+                    html과 css를 통해 웹의 시각적인 요소를 구현하고 전체적인 웹 구조를 만들 수 있음.                                                                                    
+                </p>
+            </div>
+            <div class="percent02">
+                <div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="percentbox">
+                    <div><h9>50%</h9></div>
+                </div>
+                <p>
+                    에니메이션, 스크롤, 슬라이드 등 기본적인 동적 움직임을 구현할 수 있음.
+                </p>
+            </div>
+            <div class="percent03">
+                <div>
+                    <span>Jquery</span>
+                </div>
+                <div class="percentbox">
+                    <div><h9>80%</h9></div>
+                </div>
+                <p>
+                    자바스크립트기반의 라이브러리를 이용하여 웹페이지에 다양한 효과를 적용할 수 있음.
+                </p>
+            </div>
+            <div class="percent04">
+                <div>
+                    <span>Node.js</span>
+                </div>
+                <div class="percentbox">
+                    <div><h9>30%</h9></div>
+                </div>
+                <p>
+                    노드 기본개념과 기초적인 서버개념 함양.                            
+                </p>
+            </div>
+            <div class="percent05">
+                <div>
+                    <span>React</span>
+                </div>
+                <div class="percentbox">
+                    <div><h9>40%</h9></div>
+                </div>
+                <p>
+                    React의 전반적인 요소를 이해하고 기초적인 훅함수를 이용한 React 페이지 제작을 수행.
+                </p>
+            </div>
+        </div>        
+    </section>
+    <section id="project_m">
+        <div id="projecttitle">
+            <h2>My Projects</h2>
+        </div>
+        <div id="project_h">
+            <ul class="project_h_list">
+                <li>project1</li>
+                <li>project2</li>
+                <li>project3</li>
+                <li>project4</li>
+            </ul>
+        </div>
+        <div id="project_b">
+            <div class="projectbox">
+                <div class="project1">
+                    <img class="monitor" src="./images/monitor.png" alt="">
+                        <div class="monitor_in">
+                            <ul>
+                                <li class="choroc1">
+                                    <img src="./images/choroc1.jpg" alt="" />
+                                </li>
+                                <li class="choroc2">
+                                    <img src="./images/choroc2.jpg" alt="" />
+                                </li>
+                                <li class="choroc3">
+                                    <img src="./images/choroc3.jpg" alt="" />
+                                </li>
+                                <li class="choroc4">
+                                    <img src="./images/choroc4.jpg" alt="" />
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="project_txt">                                
+                        <h3>제목: 초록마을 리뉴얼</h3>
+                        <a href="https://choroc2.netlify.app" target="_blank" class="pro_button">결과물보기</a>
+                        <a href="#" class="pro_button">코드보기</a>
+                        <p>설명 : 리액트 프레임워크를 이용해 초록마을 사이트를 리뉴얼</p>
+                        <p>사용 기술 : html, css, javascript, react</p>
+                        <p>작업후기 : 첫번째로 작업할 때 애를 먹었던 것은 position을 absolute로 사용하고 left값과 top값을 주었을 때 스크롤을 당기면
+                            대상의 위치가 이상한 곳으로 가는 현상이었습니다. 알아보니 left를 퍼센트로 주고 margin-left값을 대상의 width의 반을 -값으로 주면 해결되었습니다.
+                            다음으로 리액트를 사용하면서 bootstrap은 정해진 디자인을 따르기 때문에 javascript를 사용하게 되었는데 class컴포넌트를 만들어야 
+                            javascript를 사용할 수 있기 때문에 함수형 컴포넌트를 수정하는 과정도 겪게 되었고 작업하는 과정에서 class컴포넌트보다 함수형 컴포넌트가 따로 props를
+                            불러올 필요가 없어 훨씬 수월하고 함수형에 훅함수를 이용해서 작업하는것이 간편하기 때문에 보편적으로 사용한다는 것도 알게 되었습니다.
+                            따라서 다음 작업에서는 class컴포넌트를 많이 이용하는 것보다 함수형으로 선언해서 훅함수를 통해 기능을 구현해서 작업하는 것이 낫다고 생각합니다.
+                            또한, 반응형을 미쳐 생각하지 않고 작업하다가 보니 많은 수정과정을 거쳐서 시간이 많이 들었는데 반응형을 염두해두고 작업을 진행하는 것이 
+                            작업시간을 줄이는 방법이라고 생각합니다.                                   
+                        </p>
+                    </div>    
+                <div class="project2"></div>
+                <div class="project3"></div>                        
+                <div class="project4"></div>
+                </div>
+        </div>
+    </section>
+    <section id="contactme_m">
+        <div class="contactme_h">
+            <div>contactme</div>
+        </div>
+        <div class="contactme_b">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">from_name</label>
+                    <input
+                        type="text"
+                        name="from_name"
+                        id="from_name"
+                    />
+                </div>
+                <div class="field">
+                    <label for="to_name">to_name</label>
+                    <input type="text" name="to_name" id="to_name" />
+                </div>
+                <div class="field">
+                    <label for="message">message</label>
+                    <input type="text" name="message" id="message" />
+                </div>
+                <div class="field">
+                    <label for="tel">tel</label>
+                    <input type="text" name="tel" id="tel" />
+                </div>
+                <div class="field">
+                    <label for="reply_to">reply_to</label>
+                    <input type="text" name="reply_to" id="reply_to" />
+                </div>
+                <input type="submit" id="button" value="Send Email" />
+            </form>
+            <!---->
+        </div>
+    </section>
+    <section id="finish_m">thank you</section>    
+
+    <script type="text/javascript">
+        emailjs.init("LJ5bIUo1VLKmiOZZ8");
+
+        const btn1 = document.getElementById("button");
+
+        document
+            .getElementById("form")
+            .addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                btn1.value = "Sending...";
+
+                const serviceID = "service_t31vix3";
+                const templateID = "template_lbdxe5p";
+
+                emailjs.sendForm(serviceID, templateID, this).then(
+                    () => {
+                        btn1.value = "Send Email";
+                        alert("메일보내기 성공");
+                    },
+                    (err) => {
+                        btn1.value = "Send Email";
+                        alert(JSON.stringify(err));
+                    }
+                );
+            });
+    </script>
+</div>
+</body>
+</html>
+
+       
