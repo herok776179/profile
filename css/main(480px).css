@@ -1,0 +1,509 @@
+@media screen and (max-width: 480px) {
+    #wrap {
+        display: none;
+    }
+
+    #wrap_m {
+        display: block;
+        width: 100%;
+    }
+
+    #wrap_m>section {
+        height: 750px;
+    }
+
+    /* 메인 */
+
+    #main_m {
+        width: 100%;
+    }
+
+    #header_m {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #header_m .logo {
+        float: left;
+        color: #fff;
+        width: 100px;
+        height: 100px;
+        font-size: 30px;        
+        line-height: 100px;
+        margin-left: 180px;
+    }
+
+    #header_m .menu {
+        float: right;
+        width: 100px;
+        height: 100px;        
+        padding: 40px 0 0 30px;
+        box-sizing: border-box;
+    }
+
+    #header_m .menu>div {
+        width: 30px;
+        height: 25px;
+    }
+
+    #header_m .menu>div>div {
+        margin-bottom: 3px;
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+    }
+
+    #main_m_txt {
+        width: 99%;
+        height: 600px;       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 2px solid #000;        
+    }
+    #main_m_txt h2{
+        font-size: 35px;
+    }
+    #main_m_txt p{
+        font-size: 20px;
+    }
+
+    #profiles_m {
+        width: 100%;       
+    }
+
+    #profiles_m .profiles_h {
+        width: 100%;
+        height: 100px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profiles_m .profiles_h div {
+        width: 200px;
+        height: 80px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 80px;
+        font-size: 16px;
+    }
+    #profiletopbox{
+        width: 100%;
+        height: 250px;
+        position: relative;       
+        margin: 0 auto;       
+       
+    }
+    #profiletopbox ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #profiletopbox li{
+        width: 30%;
+        height: 300px;
+        float: left;
+        margin: 0 auto;    
+        border: 1px solid #000;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    #profiletopbox .proh4{
+        position: absolute;    
+        z-index: 9999;
+        left: 50px;
+        font-size: 16px;
+        color: #000;
+        font-weight: 300;
+    }
+    #profiletopbox li h4{
+        text-align: center;
+        font-size: 14px;
+        color: #000;
+        font-weight: 300;
+        height: 35px;
+    }
+    #profiletopbox .prospeechimg{
+        width: 150px;
+        height: 300px;
+        opacity: 0.3;        
+    }
+    #profiletopbox li h9{    
+        position: absolute;
+        z-index: 9999;
+        left:30px;
+        top:105px;
+        color: #000;
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 300;
+    }
+    #profiletopbox li h6{
+        margin-left: 10px;
+        font-weight: 200;
+        color: #000;
+        font-size: 12px;
+        margin-top: 5px;    
+    }
+    #profiletopbox li p{
+        margin-left: 10px;
+        font-size: 8px;
+        margin-top: 5px;
+        font-weight: 300;        
+    }
+    #profiletopbox .proshowbox{          
+        width: 250px;
+        height: 300px;    
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #profiletopbox .proshow{       
+        width: 75%;
+        height: 25px;                
+    }
+    #profiletopbox .proshow .proshowimg{
+        width: 75px;
+        height: 25px;        
+    }
+    #profiletopbox .proshow h5{
+        display: none;
+    }
+    #profiletxt01 {
+        width: 100%;
+        height: 135px;
+        position: relative;
+        top: 70px;    
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    #profiletxt01 span {
+        font-size: 24px;
+    }
+    
+    #profiletxt02 {       
+        width: 100%;
+        height: 135px;
+        position: relative;
+        top: 70px;
+        margin: 0 auto;    
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;    
+        font-size: 14px;
+        text-align: center;
+        border-radius: 5px;
+        overflow: hidden;    
+    }
+    
+    #profiletxt02 span {
+        font-size: 24px;
+    }
+
+    #skill_m {
+        width: 100%;       
+    }
+    #skill_m .skill_h {
+        width: 100%;
+        height: 100px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #skill_m .skill_h div {
+        width: 200px;
+        height: 80px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 80px;
+        font-size: 16px;
+    }
+
+    #percent {
+        width: 100%;
+        height: 600px;    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #percent > div {
+        width: 100%;
+        height: 90px;       
+    }
+    
+    #percent > div > div {
+        float: left;
+        width: 15%;
+        text-align: center;
+    }
+    
+    #percent > div > div span {
+        font-size: 12px;
+    }
+    
+    #percent > div .percentbox {
+        width: 300px;
+        height: 30px;
+        border: 1px solid #000;    
+        overflow: hidden;
+    }
+    
+    #percent > div .percentbox > div {
+        height: 30px;
+        background-color: #000;
+        position: relative;
+    }
+    
+    #percent .percent01 .percentbox > div {
+        width: 270px;
+        left: -270px;
+    }
+    
+    #percent .percent02 .percentbox > div {
+        width: 150px;
+        left: -150px;
+    }
+    
+    #percent .percent03 .percentbox > div {
+        width: 240px;
+        left: -240px;
+    }
+    
+    #percent .percent04 .percentbox > div {
+        width: 90px;
+        left: -90px;
+    }
+    
+    #percent .percent05 .percentbox > div {
+        width: 120px;
+        left: -120px;
+    }
+    
+    #percent > div h9{
+        float: right;
+        font-size: 15px;
+        color: #fff;
+        line-height: 30px;    
+    }
+    
+    #percent > div p {
+        float: left;
+        font-size: 12px;
+        font-weight: 300;    
+    }
+
+    #project_m {
+        width: 100%;       
+    }    
+
+    #projecttitle {
+        width: 200px;
+        height: 80px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 80px;
+        
+    }
+    #projecttitle h2{
+        font-size: 16px;
+    }  
+    
+    #project_h {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #project_h .project_h_list {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #project_h .project_h_list li {
+        width: 230px;
+        height: 30px;
+        border: 1px solid #000;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    
+    #project_h .project_h_list li.on {
+        background-color: red;
+        color: #fff;
+    }
+    
+    #project_h .project_h_list li.on2 {
+        background-color: #04fa4eef;
+        color: #000;
+    }
+    
+    #project_b {
+        width: 480px;
+        height: 500px;    
+        overflow: hidden;
+    }
+    
+    #project_b .projectbox {
+        width: 2400px;
+        height: 500px;
+        position: relative;
+    }
+    
+    #project_b .projectbox > div {
+        float: left;
+        width: 480px;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #project_b .monitor {     
+        max-width: 350px;
+    }
+    
+    #project_b .monitor_in {
+        position: absolute;
+        top: 123.5px;
+        left: 38.5px;
+        width: 325px;
+        height: 230px;
+        overflow: hidden;
+    }
+    
+    #project_b .monitor_in ul {
+        width: 325px;
+        height: 230px;
+        position: relative;
+    }
+    
+    #project_b ul li:nth-child(1) {
+        position: absolute;
+        top: 0px;
+        left: 0%;
+    }
+    
+    #project_b .monitor_in ul li:nth-child(2) {
+        position: absolute;
+        top: 0px;
+        left: 100%;
+    }
+    #project_b .monitor_in ul li:nth-child(3) {
+        position: absolute;
+        top: 0px;
+        left: 200%;
+    }
+    #project_b .monitor_in ul li:nth-child(4) {
+        position: absolute;
+        top: 0px;
+        left: 300%;
+    }
+    
+    #project_b .monitor_in img {
+        display: block;
+        width: 325px;
+    }     
+    #project_b .monitor_in a{
+        position: absolute;
+        top:180px;
+        background-color: red;
+        color: #fff;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;                
+    }   
+    #contactme_m {
+        width: 100%;
+    }
+
+    #contactme_m .contactme_h {
+        width: 100%;
+        height: 100px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contactme_m .contactme_h div {
+        width: 200px;
+        height: 80px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 80px;
+        font-size: 30px;
+    }
+
+    #contactme_m .contactme_b {
+        width: 100%;
+        height: 700px;        
+        position: relative;
+    }
+
+    #form {
+        position: absolute;
+        top: 50px;
+        left: 70px;
+    }
+    
+        .field {
+        margin-bottom: 20px;
+        }
+    
+        .field label {
+        display: block;
+        font-size: 20px;
+        color: #000;
+        }
+    
+        .field input {
+            display: block;
+            min-width: 200px;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+    
+        .field:nth-child(3) input {
+            display: block;
+            min-width: 300px;
+            height: 100px;
+            line-height: 1.5;
+            font-size: 14px;
+            }
+    
+        input[type="submit"] {
+        display: block;
+        padding: 6px 30px;
+        font-size: 20px;
+        background-color: #000;
+        color: #fff;
+        border: none
+        }
+    
+
+    #finish_m {
+        width: 100%;
+        font-size: 50px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
